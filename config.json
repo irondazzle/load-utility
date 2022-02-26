@@ -1,0 +1,13 @@
+{
+  "executor": "ramping-vus",
+  "startVUs": 0,
+  "stages": [
+    { "duration": "150s", "target": 1000 },
+    { "duration": "150s", "target": 1000 },
+    { "duration": "150s", "target": 1000 },
+    { "duration": "150s", "target": 1000 },
+    { "duration": "150s", "target": 1000 },
+    { "duration": "1500s", "target": 1000 }
+  ],
+  "gracefulRampDown": "35s"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "load",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "environment.js",
+  "scripts": {
+    "load-scenario": "k6 run ./scenarios/load-scenario.js -c ./config.json --insecure-skip-tls-verify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {}
+}
